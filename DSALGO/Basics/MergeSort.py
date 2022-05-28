@@ -32,9 +32,3 @@ def merge_sort(my_list):
 
 array = [2,6,1,9,4,7,8,10]
 print(merge_sort(array))
-
-
-c = [1,2,3,4,5,6]
-d = [7,8,9]
-
-print(c + d)
