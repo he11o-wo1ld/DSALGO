@@ -14,7 +14,7 @@ def sortArray(arr):
 		
 	insert(arr, tmp)
 	# Calling the insert helper function, it'll return the sorted array
-	
+	`
 	return arr
 	
 	
