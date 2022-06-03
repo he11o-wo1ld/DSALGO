@@ -36,3 +36,11 @@ class Stack:
         return temp
 
 
+S = Stack(None)
+
+S.push(1)
+S.push(2)
+S.push(3)
+S.push(4)
+S.push(5)
+S.print_stack()
