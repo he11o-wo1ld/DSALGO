@@ -1,4 +1,5 @@
 # time: O(n * k) | space: O(n)
+
 def staircaseTraversal(height, maxSteps):
     return numberOfWaysToTop(height, maxSteps, {0:1, 1:1})
     
