@@ -1,21 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-
-int main(){
-    class Solution {
-        public:
-            vector<string> letterCasePermutation(string s) {
-                
-                string ip=s;
-                string op="";
-                vector<string> v;
-                solve(ip,op,v);
-                return v;
-                
-            }
-    };
-}
-
 void solve(string ip, string op, vector<string>& v)
 {
     if(ip.length()==0)
@@ -47,3 +29,15 @@ void solve(string ip, string op, vector<string>& v)
     return;
     
 }
+class Solution {
+public:
+    vector<string> letterCasePermutation(string s) {
+        
+         string ip=s;
+        string op="";
+        vector<string> v;
+        solve(ip,op,v);
+        return v;
+        
+    }
+};
