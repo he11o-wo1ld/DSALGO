@@ -4,5 +4,12 @@
 	},
 	{
 		"test": "2\nasdf\nasdfg\n"
+	},
+	{
+		"correct_answers":
+		[
+			"asd\nasD\naSd\naSD\nAsd\nAsD\nASd\nASD"
+		],
+		"test": "1\nasd\n"
 	}
 ]
