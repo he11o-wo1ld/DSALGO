@@ -37,7 +37,6 @@ int main(){
 		cin >> ip;
 		string op = "";
 		solve(ip, op);
-		return 0;
 	}
 	return 0;
 }
